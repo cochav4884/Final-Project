@@ -5,15 +5,20 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	font-family: 'Roboto Slab', serif;
-	text-shadow: 1px 1px rgb(10, 10, 10);
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto Slab', serif;
+    text-shadow: 1px 1px rgb(12, 12, 12);
 }
 
 p {
-	font-family: 'Roboto', sans-serif;
-	line-height: -1.5;
-	letter-spacing: 2px;
+    font-family: 'Roboto', sans-serif;
+    line-height: -1.5;
+    letter-spacing: 2px;
 }
 
 .container {
@@ -39,7 +44,7 @@ p {
     text-align: center;
     display: inline-block;
     position: relative;
-    top:-250px;
+    top: -250px;
     left: 25px;
 }
 
@@ -49,17 +54,23 @@ p {
     width: 478px;
     height: 400px;
     padding: 10px;
-    border: 1px solid black;
+    border: 1px solid rgb(12, 12, 12);
 }
 
 .column img {
     width: 45%;
     float: left;
-    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.col-one {
+    background: rgb(210, 105, 30);
+    background: linear-gradient(90deg, rgba(210,105,30,0) 0%, rgba(255,228,196,0.46262254901960786) 3%);
 }
 
 .col-two {
-    background-color: rgb(255, 228, 196);
+    background: rgb(210, 105, 30);
+    background: linear-gradient(90deg, rgba(210,105,30,0) 0%, rgba(255,228,196,0.46262254901960786) 3%);
 }
 
 .text-back {
@@ -112,22 +123,24 @@ ul li a:hover {
     font-family: Arial, Helvetica, sans-serif;
 }
 
- section {
+section {
     background-color: transparent;
     margin-bottom: 10px;
 }
 
 /* Footer */
 footer {
-	clear: both;
-	padding: px;
-	border: 1px solid black;
-	text-align: center;
-	background-color: black;
-	color: white;
+    clear: both;
+    padding: px;
+    border: 1px solid rgb(12, 12, 12);
+    text-align: center;
+    background-color: rgb(210, 105, 30);
+    color: rgb(255, 255, 255);
+    margin: auto;
+    padding: auto;
 }
 
 /* icons */
 .fa-dog {
-	color: white;
+    color: white;
 }
