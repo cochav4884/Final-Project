@@ -18,6 +18,7 @@ h6 {
     box-shadow: 4px 8px 10px rgb(12, 12, 12);
     margin-bottom: 10px;
     border-radius: 10px;
+    color: rgb(12, 12, 12);
 }
 
 p {
@@ -72,15 +73,66 @@ p {
 }
 
 .col-one {
+    padding-top: -25px;
+    background: transparent url("/img/walkway2.avif") no-repeat center;
+    color: rgb(255, 255, 255);
+}
+
+.col-one:hover {
+    background: transparent url("/img/cute0.jpg") no-repeat center;
+    color: rgb(12, 12, 12);
+}
+
+.col-two {
+    background: transparent url("/img/walkway1.avif");
+    padding-top: -25px;
+    color: rgb(12, 12, 12);
+
+}
+
+.col-two:hover {
+    background: transparent url("/img/cute6.jpg") no-repeat center;
+    color: rgb(255, 255, 255);
+}
+
+.col-three {
+background: transparent url("/img/river1.avif");    
+padding-top: -25px;
+
+}
+
+.col-three:hover {
+    background: transparent url("/img/cute2.jpg") no-repeat center;
+}
+
+.col-four {
     background: rgb(8, 121, 250);
     background: linear-gradient(90deg, rgba(8, 121, 250, 0.89) 26%, rgba(8, 121, 250, 0) 87%);
     padding-top: -25px;
 }
 
-.col-two {
+.col-four:hover {
+    background: transparent url("/img/cute3.jpg") no-repeat center;
+}
+
+.col-five {
     background: rgb(8, 121, 250);
     background: linear-gradient(90deg, rgba(8, 121, 250, 0.89) 26%, rgba(8, 121, 250, 0) 87%);
     padding-top: -25px;
+}
+
+.col-five:hover {
+    background: transparent url("/img/cute4.jpg") no-repeat center;
+}
+
+.col-six {
+    background: rgb(8, 121, 250);
+    background: linear-gradient(90deg, rgba(8, 121, 250, 0.89) 26%, rgba(8, 121, 250, 0) 87%);
+    padding-top: -25px;
+}
+
+.col-six:hover {
+    background: transparent url("/img/cute5.jpg") no-repeat center;
 }
 
 .text-back {
@@ -156,6 +208,6 @@ footer {
 }
 
 /* icons */
-.fa-heart{
+.fa-heart {
     color: white;
 }
