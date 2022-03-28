@@ -1,10 +1,20 @@
+/* body */
 body {
-    background-color: rgb(8, 121, 250);
-    margin: auto;
+    background: rgb(2,121,250);
+    background: radial-gradient(circle, rgba(2,121,250,1) 6%, rgba(8,121,250,0.49) 27%, rgba(8,121,250,1) 97%);    
     padding: auto;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* container */
+.container {
+    width: 1000px;
+    margin: auto;
+    padding: 15px;
+    height: 1000px;
+}
+
+/* headers */
 h1,
 h2,
 h3,
@@ -12,9 +22,8 @@ h4,
 h5,
 h6 {
     font-family: 'Roboto Slab', serif;
-    text-shadow: 1px 1px rgb(12, 12, 12);
+    text-shadow:2px 2px rgb(255, 228, 196);
     background-color: rgb(210, 105, 30);
-    /* border: 1px solid rgb(12, 12, 12); */
     box-shadow: 4px 8px 10px rgb(12, 12, 12);
     margin-bottom: 10px;
     border-radius: 10px;
@@ -27,128 +36,9 @@ p {
     letter-spacing: 2px;
 }
 
-.container {
-    width: 1000px;
-    margin: auto;
-    padding: 15px;
-    height: 1000px;
-    /* background: rgb(255, 228, 196);
-    background: radial-gradient(circle, rgba(255, 228, 196, 1) 30%, rgba(255, 228, 196, 0.49) 50%, rgba(255, 228, 196, 1) 70%); */
-}
-
-/* Hero */
-.hero {
-    /* border: 1px solid rgb(12, 12, 12); */
-    background-color: transparent;
-    background: transparent;
-    height: 300px;
-    width: 1000px;
-    background-position: bottom right;
-}
-
-.text-back-hero {
-    background-color: rgb(255, 255, 255, 0.5);
-    padding: 12px 50px;
-    text-align: center;
-    display: inline-block;
-    position: relative;
-    top: -270px;
-    left: 25px;
-    border-radius: 10px;
-}
-
-/* Main Content */
-.column {
-    float: left;
-    width: 478px;
-    height: 400px;
-    padding: 10px;
-    /* border: 1px solid rgb(12, 12, 12); */
-}
-
-.column img {
-    width: 45%;
-    float: left;
-    padding-right: 10px;
-}
-
-.col-one {
-    padding-top: -25px;
-    background: transparent url("/img/walkway2.avif") no-repeat center;
-    color: rgb(255, 255, 255);
-}
-
-.col-one:hover {
-    background: transparent url("/img/cute0.jpg") no-repeat center;
-    color: rgb(12, 12, 12);
-}
-
-.col-two {
-    background: transparent url("/img/walkway1.avif");
-    padding-top: -25px;
-    color: rgb(12, 12, 12);
-
-}
-
-.col-two:hover {
-    background: transparent url("/img/cute6.jpg") no-repeat center;
-    color: rgb(255, 255, 255);
-}
-
-.col-three {
-background: transparent url("/img/river1.avif");    
-padding-top: -25px;
-
-}
-
-.col-three:hover {
-    background: transparent url("/img/cute2.jpg") no-repeat center;
-}
-
-.col-four {
-    background: rgb(8, 121, 250);
-    background: linear-gradient(90deg, rgba(8, 121, 250, 0.89) 26%, rgba(8, 121, 250, 0) 87%);
-    padding-top: -25px;
-}
-
-.col-four:hover {
-    background: transparent url("/img/cute3.jpg") no-repeat center;
-}
-
-.col-five {
-    background: rgb(8, 121, 250);
-    background: linear-gradient(90deg, rgba(8, 121, 250, 0.89) 26%, rgba(8, 121, 250, 0) 87%);
-    padding-top: -25px;
-}
-
-.col-five:hover {
-    background: transparent url("/img/cute4.jpg") no-repeat center;
-}
-
-.col-six {
-    background: rgb(8, 121, 250);
-    background: linear-gradient(90deg, rgba(8, 121, 250, 0.89) 26%, rgba(8, 121, 250, 0) 87%);
-    padding-top: -25px;
-}
-
-.col-six:hover {
-    background: transparent url("/img/cute5.jpg") no-repeat center;
-}
-
-.text-back {
-    background-color: rgb(255, 255, 255, 0.3);
-    padding: 2px 10px;
-}
-
-img {
-    border-radius: 25px;
-    box-shadow: 4px 8px 10px rgb(12, 12, 12);
-}
-
+/* navigation bar */
 nav {
-    background: rgb(8, 121, 250);
-    background: linear-gradient(90deg, rgba(8, 121, 250, 0.89) 26%, rgba(8, 121, 250, 0) 87%);
-    /* border: 1px solid rgb(12, 12, 12); */
+    background-color: rgb(255, 228, 196);
     margin-bottom: 10px;
     box-shadow: 4px 8px 10px rgb(12, 12, 12);
     padding: 15px;
@@ -165,12 +55,12 @@ ul {
 }
 
 ul li {
-    background-color: rgb(255, 228, 196);
-    /* border: 2px rgb(12, 12, 12); */
+    background: rgb(8,121,250);
+    background: linear-gradient(0deg, rgba(8,121,250,0.7) 58%, rgba(8,121,250,0.46) 89%);    
     box-shadow: 4px 8px 10px rgb(12, 12, 12);
     padding: 15px;
     margin-bottom: 10px;
-    border-radius: 50%;
+    border-radius: 20px;
     display: inline-block;
 }
 
@@ -188,20 +78,119 @@ ul li a:hover {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-section {
+/* Hero */
+.hero {
     background-color: transparent;
+    background: transparent;
+    height: 300px;
+    width: 1000px;
+    background-position: bottom right;
     margin-bottom: 10px;
+}
+
+.text-back-hero {
+    background-color: rgb(255, 255, 255, 0.5);
+    padding: 12px 50px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    top: -270px;
+    left: 25px;
+    border-radius: 10px;
+    text-shadow: 2px 2px rgb(255, 228, 196);
+}
+
+/* Main Content */
+.column {
+    float: left;
+    width: 478px;
+    height: 400px;
+    padding: 10px;
+}
+
+.column img {
+    width: 45%;
+    float: left;
+    padding-right: 10px;
+}
+
+.col-one {
+    padding-top: -25px;
+    background: transparent url("") no-repeat center;
+    color: rgb(255, 255, 255);
+}
+
+.col-one:hover {
+    background: transparent url("") no-repeat center;
+}
+
+.col-two {
+    background: rgb(255, 228, 196) url("");
+    padding-top: -25px;
+    color: rgb(12, 12, 12);
+
+}
+
+.col-two:hover {
+    background: transparent url("/img/cute0.jpg") no-repeat center;
+    color: rgb(12, 12, 12);
+}
+
+.col-three {
+    background: rgb(255, 228, 196) url("");
+    padding-top: -25px;
+
+}
+
+.col-three:hover {
+    background: transparent url("/img/cute7.jpg") no-repeat center;
+    color: rgb(12, 12, 12);
+}
+
+.col-four {
+    background: transparent url("") no-repeat center;
+    padding-top: -25px;
+    color: rgb(255, 255, 255);
+}
+
+.col-four:hover {
+    background: transparent url("") no-repeat center;
+}
+
+.col-five {
+    background: rgb(255, 228, 196) url("") no-repeat center;
+    padding-top: -25px;
+}
+
+.col-five:hover {
+    background: transparent url("/img/cute5.jpg") no-repeat center;
+    color: rgb(12, 12, 12);
+}
+
+.col-six {
+    background: transparent url("") no-repeat center;
+    padding-top: -25px;
+    color: rgb(255, 255, 255);
+}
+
+.col-six:hover {
+    background: transparent url("") no-repeat center;
+
+}
+
+img {
+    border-radius: 25px;
+    box-shadow: 4px 8px 10px rgb(12, 12, 12);
 }
 
 /* Footer */
 footer {
     clear: both;
-    padding: px;
-    /* border: 1px solid rgb(12, 12, 12); */
+    padding: 5px;
     text-align: center;
     background-color: rgb(210, 105, 30);
     box-shadow: 4px 8px 10px rgb(12, 12, 12);
-    border-radius: 5px;
+    border-radius: 10px;
     color: rgb(255, 255, 255);
     margin: auto;
     padding: auto;
@@ -209,5 +198,21 @@ footer {
 
 /* icons */
 .fa-heart {
-    color: white;
+    color: rgb(255, 255, 255);
+}
+
+.fa-facebook {
+    color: rgb(255, 255, 255);
+}
+
+.fa-instagram {
+    color: rgb(255, 255, 255);
+}
+
+.fa-snapchat {
+    color: rgb(255, 255, 255);
+}
+
+.fa-twitter {
+    color: rgb(255, 255, 255);
 }
