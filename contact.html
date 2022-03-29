@@ -23,7 +23,7 @@
         </header>
 
         <nav>
-            <img src="/img/rocks2.avif" alt="logo" height="80px" width="80px">
+            <img src="../img/rocks2.avif" alt="logo" height="80px" width="80px">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">about</a></li>
@@ -33,8 +33,10 @@
 
         <main class="rows">
 
-            <section class="hero">
-                <img src="/img/rocks4.jpg" alt="rocks4" width="1000px" height="300px">
+            <div class="hero">
+                <div class="img">
+                    <img src="/img/walkway2.avif" alt="walkway2" width="1000px" height="300px">
+                </div>
                 <div class="text-back-hero">
                     <h2 class="hero-head">Welcome</h2>
                     <p class="hero-para">Tenetur suscipit itaque quo quis similique. <br> Lorem ipsum dolor, sit amet
@@ -42,36 +44,49 @@
                         praesentium quos <br> expedita ab, aspernatur quae! Minus <br> ab est harum dignissimos repellat
                         quos non.
                 </div>
-            </section>
-
-            <div class="columns col-five">
-                <h2>Column 1</h2>
-                <img src="/img/river2.avif" alt="sky1">
-                <p>Tenetur suscipit itaque quo quis similique qui eum, dolorum ea expedita tempora laboriosam asperiores
-                    facilis ipsam cupiditate quibusdam enim accusamus magni quas.
-                </p>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur suscipit itaque quo quis similique
-                    qui eum, dolorum ea expedita tempora laboriosam asperiores facilis ipsam cupiditate quibusdam.</p>
             </div>
 
-            <div class="columns col-six">
-                <h2>Column 2</h2>
-                <p>Tenetur suscipit itaque quo quis similique qui eum, dolorum ea expedita tempora laboriosam asperiores
-                    facilis ipsam cupiditate
-                    quibusdam enim accusamus magni quas.Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+            <div class="colums">
+                <div class="col-five">
+                    <h2>Column 1</h2>
+                    <form action="action_page.php">
 
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur suscipit itaque quo quis
-                    similique qui eum, dolorum ea expedita tempora laboriosam asperiores facilis ipsam
-                    cupiditate.Tenetur suscipit itaque quo quis similique qui eum, dolorum ea expedita tempora
-                    laboriosam asperiores facilis ipsam cupiditate quibusdam enim accusamus magni quas.</p>
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your first name.." required><br>
+
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name.." required><br>
+
+                        <label for="email">email</label>
+                        <input type="email" id="email" placeholder="email.." required><br>
+
+                        <label for="comment">comment</label>
+                        <textarea name="comment" id="comment" cols="30" rows="10"
+                            placeholder="comment.."></textarea><br>
+
+                        <input type="submit" value="Submit">
+
+                    </form>
+                </div>
+
+                <div class="col-six">
+                    <h2>column 2</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing <br> elit. Error, dolorem porro natus <br> deseruntnumquam architecto est libero <br> asperiores minima iure vel minus alias <br> voluptatem molestias quod consequatur <br> aperiam accusamus reiciendis.</p>
+                    <!-- <form action="/action_page.php"> -->
+                    <form></form>
+                    <label for="fname">First name:</label><br>
+                    <input type="text" id="fname" name="fname" value="John"><br>
+                    <label for="lname">Last name:</label><br>
+                    <input type="text" id="lname" name="lname" value="Doe"><br><br>
+                    <input type="submit" value="Submit">
+                    </form>
+                </div>
+
             </div>
         </main>
 
         <footer>
-            <p>&copy; 2022 | <a href="#"><i class="fa-solid fa-heart"></i></a> <a href="#"><i
-                        class="fa-brands fa-facebook"></i></a> <a href="#"><i class="fa-brands fa-instagram"></i></a> <a
-                    href="#"><i class="fa-brands fa-snapchat"></i></a> <a href="#"><i
-                        class="fa-brands fa-twitter"></i></a></p>
+            <p>&copy; 2022 | <a href="#"><i class="fa-solid fa-heart"></i></a> <a href="#"><i class="fa-brands fa-facebook"></i></a> <a href="#"><i class="fa-brands fa-instagram"></i></a> <a href="#"><i class="fa-brands fa-snapchat"></i></a> <a href="#"><i class="fa-brands fa-twitter"></i></a></p>
         </footer>
 
     </div>
