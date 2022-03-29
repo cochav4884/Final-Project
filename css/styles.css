@@ -106,7 +106,7 @@ ul li a:hover {
     height: 400px;
     padding: 10px;
     margin-bottom: 10px;
-    float: left;
+    display: inline-block;
 
 }
 
@@ -117,22 +117,23 @@ ul li a:hover {
 }
 
 .col-one {
-    background: rgb(255, 228, 196) url("") no-repeat center;
+    background: rgb(255, 228, 196);
+    padding-top: -25px;
     color: rgb(12, 12, 12);
+    border-radius: 10px;
     float: left;
 }
 
-.col-one:hover {
+/* .col-one:hover {
     background: transparent url("") no-repeat center;
-}
+} */
 
 .col-two {
-    background: rgb(255, 228, 196) url("") no-repeat center;
+    background: rgb(255, 228, 196);
     padding-top: -25px;
     color: rgb(12, 12, 12);
     border-radius: 10px;
     float: right;
-    text-align: right;
 }
 
 .col-two:hover {
@@ -142,42 +143,49 @@ ul li a:hover {
 }
 
 .col-three {
-    background: rgb(255, 228, 196) url("") no-repeat center;
+    background: rgb(255, 228, 196);
     padding-top: -25px;
+    color: rgb(12, 12, 12);
     border-radius: 10px;
     float: left;
 }
 
-.col-three:hover {
-    background: transparent url("../img/cute11.jpg") no-repeat center;
+/* .col-three:hover {
+    background: transparent ("../img/cute11.jpg") no-repeat center;
     color: rgb(12, 12, 12);
     border-radius: 10px;
-}
+} */
 
 .col-four {
-    background: rgb(255, 228, 196) url("") no-repeat center;
+    background: rgb(255, 228, 196);
     padding-top: -25px;
     color: rgb(12, 12, 12);
+    border-radius: 10px;
     float: right;
 }
 
 .col-four:hover {
-    background: transparent url("") no-repeat center;
+    background: transparent url("/img/cute5.jpg") no-repeat center;
+    color: rgb(12, 12, 12);
+    border-radius: 10px;
 }
 
 .col-five {
-    background: rgb(255, 228, 196) url("") no-repeat center;
+    background: rgb(255, 228, 196);
+    padding-top: -25px;
     color: rgb(12, 12, 12);
+    border-radius: 10px;
     float: left;
-    text-align: left;
 }
 
-.col-five:hover {
-    background: transparent url("") no-repeat center;
-}
+/* .col-five:hover {
+    background: transparent url("/img/cute8.jpg") no-repeat center;
+    color: rgb(12, 12, 12);
+    border-radius: 10px;
+} */
 
 .col-six {
-    background: rgb(255, 228, 196) url("") no-repeat center;
+    background: rgb(255, 228, 196);
     padding-top: -25px;
     color: rgb(12, 12, 12);
     border-radius: 10px;
@@ -185,7 +193,7 @@ ul li a:hover {
 }
 
 .col-six:hover {
-    background: transparent url("../img/cute7.jpg") no-repeat center;
+    background: transparent url("/img/cute7.jpg") no-repeat center;
     padding-top: -25px;
     border-radius: 10px;
 }
