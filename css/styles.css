@@ -106,18 +106,19 @@ ul li a:hover {
     height: 400px;
     padding: 10px;
     margin-bottom: 10px;
-    display: inline-block;
+    float: left;
+
 }
 
 .columns img {
     width: 45%;
-    float: left;
     padding-right: 10px;
+    display: inline-block;
 }
 
 .col-one {
-    background: transparent url("") no-repeat center;
-    color: rgb(255, 255, 255);
+    background: rgb(255, 228, 196) url("") no-repeat center;
+    color: rgb(12, 12, 12);
     float: left;
 }
 
@@ -126,11 +127,12 @@ ul li a:hover {
 }
 
 .col-two {
-    background: rgb(255, 228, 196) url("");
+    background: rgb(255, 228, 196) url("") no-repeat center;
     padding-top: -25px;
     color: rgb(12, 12, 12);
     border-radius: 10px;
     float: right;
+    text-align: right;
 }
 
 .col-two:hover {
@@ -140,7 +142,7 @@ ul li a:hover {
 }
 
 .col-three {
-    background: rgb(255, 228, 196) url("");
+    background: rgb(255, 228, 196) url("") no-repeat center;
     padding-top: -25px;
     border-radius: 10px;
     float: left;
@@ -153,9 +155,9 @@ ul li a:hover {
 }
 
 .col-four {
-    background: transparent url("") no-repeat center;
+    background: rgb(255, 228, 196) url("") no-repeat center;
     padding-top: -25px;
-    color: rgb(255, 255, 255);
+    color: rgb(12, 12, 12);
     float: right;
 }
 
@@ -164,9 +166,10 @@ ul li a:hover {
 }
 
 .col-five {
-    background: transparent url("") no-repeat center;
-    color: rgb(255, 255, 255);
+    background: rgb(255, 228, 196) url("") no-repeat center;
+    color: rgb(12, 12, 12);
     float: left;
+    text-align: left;
 }
 
 .col-five:hover {
