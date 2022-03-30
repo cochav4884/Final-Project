@@ -1,6 +1,7 @@
 /* body */
 body {
-	background-color: rgb(20, 40, 46);
+	background: rgb(37, 20, 78);
+	background: linear-gradient(0deg, rgba(37, 20, 78, 0.6222864145658263) 0%, rgba(20, 40, 46, 0.8323704481792717) 74%);
 	margin: auto;
 	padding: auto;
 }
@@ -34,7 +35,7 @@ p {
 	background-color: rgb(37, 20, 78);
 	margin: auto;
 	padding: 15px;
-	height: 1100px;
+	height: 1400px;
 	box-shadow: 4px 8px 10px rgb(37, 20, 78);
 }
 
@@ -97,10 +98,20 @@ ul li a:hover {
 	padding: 12px 50px;
 	text-align: center;
 	display: inline-block;
-	color: rgb(190, 190, 190);
+	color: rgb(12, 12, 12);
 	position: relative;
 	top: -370px;
 	left: 50px;
+}
+
+.page {
+	background-color: rgb(255, 255, 255);
+	border: 1px rgb(12, 12, 12);
+	padding: 5px;
+}
+
+.info {
+	color: rgb(255, 255, 255);
 }
 
 .map {
@@ -187,8 +198,7 @@ footer {
 	box-shadow: 4px 8px 10px rgb(37, 20, 78);
 	border-radius: 10px;
 	color: rgb(255, 255, 255);
-	margin: auto;
-	padding: auto;
+	height: 350px;
 }
 
 /* icons */
@@ -210,6 +220,22 @@ footer {
 
 .fa-twitter {
 	color: rgb(255, 255, 255);
+}
+
+.privandterm {
+	color: rgba(255, 255, 255, 0.719);
+}
+
+.myname {
+	font-size: larger;
+}
+
+.logo {
+	padding-top: 5px;
+	box-shadow: 4px 8px 10px rgb(255, 255, 255);
+	height: 40px;
+	width: 60px;
+	margin: auto;
 }
 
 /* forms */
