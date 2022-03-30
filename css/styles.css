@@ -1,6 +1,6 @@
 /* body */
 body {
-	background-color: rgb(169, 169, 169);
+	background-color: rgb(20, 40, 46);
 	margin: auto;
 	padding: auto;
 }
@@ -40,7 +40,7 @@ p {
 
 /* navigation bar */
 nav {
-	background-color: rgb(169, 169, 169);
+	background-color: rgb(169, 169, 169, 0.5);
 	margin-bottom: 10px;
 	box-shadow: 4px 8px 10px rgb(37, 20, 78);
 	padding: 15px;
@@ -162,7 +162,7 @@ ul li a:hover {
 }
 
 .col-five:hover {
-	background: transparent url("/img/cute6.jpg") no-repeat center;
+	background: transparent url("/img/cute13.jpg") no-repeat center;
 }
 
 .col-six {
