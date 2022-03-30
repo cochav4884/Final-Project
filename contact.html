@@ -2,72 +2,93 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Page</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>W4B Final Project</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Slab&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Slab&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/styles.css">
-    <script src="https://kit.fontawesome.com/16ef79e6fd.js" crossorigin="anonymous"></script>
-
+	<link rel="stylesheet" href="css/styles.css">
+	<script src="https://kit.fontawesome.com/16ef79e6fd.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+	<div class="container">
+		<header>
+			<h1>Contact Page</h1>
+		</header>
 
-    <div class="container">
-        <header>
-            <h1>Contact Page</h1>
-        </header>
+		<nav>
+			<a href="https://en.wikipedia.org/wiki/Butterfly"><img src="/img/logo2.jpg" alt="HTML tutorial"
+					style="width:80px;height:60px;"></a>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+		<div class="hero">
+			<div class="img">
+				<img src="/img/river1.avif" alt="river1" width="1000px" height="400px">
+			</div>
+			<div class="text-back-hero">
+				<h2 class="hero-head">Contact Form</h2>
+				<form style="width:400px">
+					<label for="fname">First Name</label>
+					<input type="text" id="fname" name="firstname" placeholder="Your name.." required> <br>
 
-        <nav>
-            <img src="../img/rocks2.avif" alt="logo" height="80px" width="80px">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">about</a></li>
-                <li><a href="contact.html">contact</a></li>
-            </ul>
-        </nav>
+					<label for="lname">Last Name</label>
+					<input type="text" id="lname" name="lastname" placeholder="Your last name.." required> <br>
 
-        <main class="rows">
+					<label for="email">Email</label>
+					<input type="text" id="email" name="email" placeholder="Your eamil address.." required> <br>
 
-            <div class="hero">
-                <div class="img">
-                    <img src="/img/walkway1.avif" alt="walkway1" width="1000px" height="300px">
-                </div>
-                <div class="text-back-hero">
-                    <h2 class="hero-head">Welcome</h2>
-                    <p class="hero-para">Tenetur suscipit itaque quo quis similique. <br> Lorem ipsum dolor, sit amet
-                        <br> consectetur adipisicing elit. <br> In, atque illo fuga eaque sunt, <br> nesciunt officiis
-                        praesentium quos <br> expedita ab, aspernatur quae! Minus <br> ab est harum dignissimos repellat
-                        quos non.
-                </div>
-            </div>
+					<label for="comment">Comment</label>
+					<textarea id="comment" name="comment" placeholder="Write something.."
+						style="height:100px"></textarea> <br>
 
-            <div class="columns">
-                <div class="col-five">
-                    <h2>Column 1</h2>
-                    <img src="/img/walkway2.avif" alt="walkway2">
-                </div>
+					<input type="submit" value="Submit">
+				</form>
+			</div>
+		</div>
+		<main class="row">
+			<div class="column col-five">
+				<div class="text-back">
+					<h2>River2</h2>
+					<img src="/img/river2.avif" alt="river2">
+					<p>Tenetur suscipit itaque quo quis similique qui eum, dolorum ea expedita tempora laboriosam
+						asperiores facilis ipsam cupiditate quibusdam enim accusamus magni quas.</p>
+					<p>Tenetur suscipit itaque quo quis
+						similique qui eum, dolorum ea expedita tempora laboriosam asperiores facilis.</p>
+				</div>
+			</div>
 
-                <div class="col-six">
-                    <h2>Column 2</h2>
-                    <img src="/img/walkway3.avif" alt="walkway3">
-                </div>
-            </div>
+			<div class="column col-six">
+				<div class="text-back">
+					<h2>River3</h2>
+					<img src="/img/river3.avif" alt="river3">
+					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur suscipit itaque quo quis
+						similique qui eum, dolorum ea expedita tempora laboriosam asperiores facilis ipsam cupiditate.
+					</p>
 
-            <footer>
-                <p>&copy; 2022 | <a href="#"><i class="fa-solid fa-heart"></i></a> <a href="#"><i
-                            class="fa-brands fa-facebook"></i></a> <a href="#"><i
-                            class="fa-brands fa-instagram"></i></a> <a href="#"><i
-                            class="fa-brands fa-snapchat"></i></a> <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                </p>
-            </footer>
-
-
+					<p>Tenetur suscipit itaque quo quis
+						similique qui eum, dolorum ea expedita tempora laboriosam asperiores.</p>
+				</div>
+			</div>
+		</main>
+		<footer>
+			<p>&copy; 2022 | <a href="https://photos.google.com/?pli=1"><i class="fa-solid fa-heart"></i></a> <a
+					href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a> <a
+					href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a> <a
+					href="https://www.snapchat.com/"><i class="fa-brands fa-snapchat"></i></a> <a
+					href="https://www.twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+			</p>
+		</footer>
+		
+	</div>
 </body>
 
 </html>
