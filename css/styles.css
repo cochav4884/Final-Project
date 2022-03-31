@@ -140,7 +140,7 @@ ul li a:hover {
 }
 
 .col-one:hover {
-	background: transparent url("/img/cute0.jpg") no-repeat center;
+	background: transparent url("../img/cute0.jpg") no-repeat center;
 }
 
 .col-two {
@@ -148,7 +148,7 @@ ul li a:hover {
 }
 
 .col-two:hover {
-	background: transparent url("/img/cute9.jpg") no-repeat center;
+	background: transparent url("../img/cute9.jpg") no-repeat center;
 }
 
 
@@ -157,7 +157,7 @@ ul li a:hover {
 }
 
 .col-three:hover {
-	background: transparent url("/img/cute8.jpg") no-repeat center;
+	background: transparent url("../img/cute8.jpg") no-repeat center;
 }
 
 .col-four {
@@ -165,7 +165,7 @@ ul li a:hover {
 }
 
 .col-four:hover {
-	background: transparent url("/img/cute7.jpg") no-repeat center;
+	background: transparent url("../img/cute7.jpg") no-repeat center;
 }
 
 .col-five {
@@ -173,7 +173,7 @@ ul li a:hover {
 }
 
 .col-five:hover {
-	background: transparent url("/img/cute13.jpg") no-repeat center;
+	background: transparent url("../img/cute13.jpg") no-repeat center;
 }
 
 .col-six {
@@ -181,7 +181,7 @@ ul li a:hover {
 }
 
 .col-six:hover {
-	background: transparent url("/img/cute5.jpg") no-repeat center;
+	background: transparent url("../img/cute5.jpg") no-repeat center;
 }
 
 .text-back {
