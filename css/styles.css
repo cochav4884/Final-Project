@@ -20,6 +20,8 @@ h6 {
 	padding: 2px;
 	text-align: center;
 	border: 1px solid black;
+	border-radius: 5px;
+
 }
 
 /* paragraphs */
@@ -35,7 +37,7 @@ p {
 	background-color: rgb(37, 20, 78);
 	margin: auto;
 	padding: 15px;
-	height: 1400px;
+	height: 1440px;
 	box-shadow: 4px 8px 10px rgb(37, 20, 78);
 }
 
@@ -104,6 +106,91 @@ ul li a:hover {
 	left: 50px;
 }
 
+section {
+	width: 0;
+	height: 0;
+	padding: 15px;
+	margin-bottom: 10px;
+	font-weight: bold;
+	margin-top: -25px;
+}	
+
+
+.sec {
+	position: relative;
+	animation: mymove 5s infinite;
+}
+
+#div1 {
+	animation-timing-function: linear;
+}
+
+@keyframes mymove {
+	from {
+		left: 0px;
+	}
+
+	to {
+		left: 950px;
+	}
+}
+
+/* about */
+#div6 {
+	background: transparent url("/img/dove.avif") no-repeat center;
+	animation-timing-function: linear;
+}
+
+#div7 {
+	background: transparent url("/img/dove2.jpg") no-repeat center;
+	animation-timing-function: ease;
+}
+
+#div8 {
+	background: transparent url("/img/finch.avif") no-repeat center;
+	animation-timing-function: ease-in;
+}
+
+#div9 {
+	background: transparent url("/img/eagle.jpg") no-repeat center;
+	animation-timing-function: ease-out;
+}
+
+#div10 {
+	background: transparent url("/img/goose.jpg") no-repeat center;
+	animation-timing-function: ease-in-out;
+	padding: 28px;
+}
+
+/* contact */
+
+#div11 {
+	background: transparent url("/img/owl.jpg") no-repeat center;
+	animation-timing-function: linear;
+}
+
+#div12 {
+	background: transparent url("/img/parot.jpg") no-repeat center;
+	animation-timing-function: ease;
+}
+
+#div13 {
+	background: transparent url("/img/parot2.jpg") no-repeat center;
+	animation-timing-function: ease-in;
+}
+
+#div14 {
+	background: transparent url("/img/pheasant.jpg") no-repeat center;
+	animation-timing-function: ease-out;
+}
+
+#div15 {
+	background: transparent url("/img/seagal.jpg") no-repeat center;
+	animation-timing-function: ease-in-out;
+	padding: 28px;
+}
+
+/* main */
 .page {
 	background-color: rgb(255, 255, 255);
 	border: 1px rgb(12, 12, 12);
@@ -149,7 +236,7 @@ ul li a:hover {
 }
 
 .col-two:hover {
-	background: transparent url("../img/cute9.jpg") no-repeat center;	
+	background: transparent url("../img/cute9.jpg") no-repeat center;
 	color: rgb(12, 12, 12);
 }
 
@@ -209,6 +296,14 @@ footer {
 
 /* icons */
 .fa-heart {
+	color: rgb(255, 255, 255);
+}
+
+.fa-star {
+	color: rgb(255, 255, 255);
+}
+
+.fa-dove {
 	color: rgb(255, 255, 255);
 }
 
