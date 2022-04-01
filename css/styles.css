@@ -115,12 +115,16 @@ section {
 	margin-bottom: 10px;
 	font-weight: bold;
 	margin-top: -25px;
-}	
+}
 
 
 .sec {
 	position: relative;
 	animation: mymove 5s infinite;
+	position: sticky;
+	top: 0;
+	left: 0;
+	z-index: 1;
 }
 
 #div1 {
@@ -129,11 +133,11 @@ section {
 
 @keyframes mymove {
 	from {
-		left: 0px;
+		left: -100px;
 	}
 
 	to {
-		left: 950px;
+		left: 1220px;
 	}
 }
 
