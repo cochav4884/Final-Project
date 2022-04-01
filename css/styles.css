@@ -95,6 +95,10 @@ ul li a:hover {
 	margin-bottom: 10px;
 }
 
+.hero:hover {
+	background: transparent url("/img/")
+}
+
 .text-back-hero {
 	background-color: rgb(37, 20, 78, 0.5);
 	padding: 12px 50px;
@@ -120,6 +124,7 @@ section {
 
 .sec {
 	position: relative;
+	z-index: 0;
 	animation: mymove 5s infinite;
 	position: sticky;
 	top: 0;
